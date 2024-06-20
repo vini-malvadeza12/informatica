@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho inter </title>
+
+
+    <style>
+        #topbox {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .nome-topbox{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .coluna1-caixa1{
+            width: 270px;
+            height: 300px;
+            background-color: black;
+            border: 2px solid goldenrod;
+            border-radius: 15px;
+            background: url(https://imageio.forbes.com/specials-images/imageserve/65ae5d872bd77bacef39dc22/Real-Madrid-star-Vinicius-Jr--used-social-media-to-poke-fun-at-his-goal-versus/960x0.jpg?format=jpg&width=960);
+            background-position: center;
+            background-size: cover;
+            margin: auto;
+            border: 5px solid white;
+            margin: 20px;
+        }
+
+        
+        .coluna1-caixa2 {
+            width: 270px;
+            height: 200px;
+            background-color: black;
+            border: 2px solid goldenrod;
+            border-radius: 15px;
+            background: url(https://imageio.forbes.com/specials-images/imageserve/65ae5d872bd77bacef39dc22/Real-Madrid-star-Vinicius-Jr--used-social-media-to-poke-fun-at-his-goal-versus/960x0.jpg?format=jpg&width=960);
+            background-position: center;
+            background-size: cover;
+            margin: auto;
+            border: 5px solid white;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+
+        .coluna2-caixa1{
+            width: 180px;
+            height: 300px;
+            background-color: black;
+            border: 2px solid goldenrod;
+            margin: 20px;
+            border-radius: 15px;
+            background: url(https://conteudo.imguol.com.br/c/esporte/a5/2023/10/01/darlan-durante-a-partida-entre-brasil-x-republica-tcheca-no-pre-olimpico-de-volei-1696176654003_v2_3x4.jpg);
+            background-position: center;
+            background-size: cover;
+            border: 5px solid white;
+        }
+
+
+        .coluna2-caixa2{
+            width: 180px;
+            height: 200px;
+            background-color: black;
+            border: 2px solid goldenrod;
+            margin: 20px;
+            border-radius: 15px;
+            background: url(https://conteudo.imguol.com.br/c/esporte/a5/2023/10/01/darlan-durante-a-partida-entre-brasil-x-republica-tcheca-no-pre-olimpico-de-volei-1696176654003_v2_3x4.jpg);
+            background-position: center;
+            background-size: cover;
+            border: 5px solid white;
+        }
+   
+        #ball {
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+            background-color: black;
+            background: url(https://s2-ge.glbimg.com/7T9sslonnXjlrmipGEw3OMHBkpw=/1080x608/top/smart/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/G/v/CbjBr3Ssu2KOR4KjGm5A/gettyimages-2152095716.jpg);
+            background-position: center;
+            background-size: cover;
+            margin: auto;
+        }
+        .coluna3-caixa {
+            width: 200px;
+            height: 535px;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 15px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4QdHlXh9mnmHacqdsj1-nJZ4iusPQnYNc9Q&s);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-left: 20px;
+        }
+
+        .texto-botão {
+            margin: 0;
+        }
+
+        .botão-style {
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .botão-style a {
+            display: flex;
+            align-items: center;
+            padding: 5px 15px;
+            background-color: #d3d3d3;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .botão {
+            display: flex;
+        }
+
+        .botão-img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .botão-coluna1 {
+            margin-right: 50px;
+        }
+
+        .texto-botão {
+            color: black;
+            font-size: 18px;
+        }
+        .corbtn {
+          
+            color: grey;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="topbox">
+        <div id="ball">
+        </div>
+
+        <div>
+            <div class="nome-topbox">
+                <h2>Vinicius Ruiz Tenedini</h2>
+                <h3 class="corbtn">estudante TI</h3>
+                <h3>social</h3>
+            </div>
+
+            <div class="botão">
+                <div class="botão-coluna1">
+                    <div class="botão-style">
+                        <a href="https://www.instagram.com/">
+                            <img src="icons8-instagram.svg" class="botão-img">
+                            <p class="texto-botão">Instagram</p>
+                        </a>
+                    </div>
+                    <div class="botão-style">
+                        <a href="https://github.com/login">
+                            <img src="icons8-github.svg" class="botão-img">
+                            <p class="texto-botão">Github</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="botão-coluna2">
+                    <div class="botão-style">
+                        <a href="https://www.tiktok.com/login?lang=pt-BR&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Dpt-BR">
+                            <img src="icons8-tiktok.svg" class="botão-img">
+                            <p class="texto-botão">TikTok</p>
+                        </a>
+                    </div>
+                    <div class="botão-style">
+                        <a href="https://www.youtube.com/">
+                            <img src="icons8-youtube.svg" class="botão-img">
+                            <p class="texto-botão">Youtube</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div id="bottombox">
+        <div class="container">
+
+            <div name="coluna1">
+                <div class="coluna1-caixa1"></div>
+                <div class="coluna1-caixa2"></div>
+
+            </div>
+            <div name="coluna2">
+                <div class="coluna2-caixa1"></div>
+                <div class="coluna2-caixa2"></div>
+            </div>
+            <div name="coluna3">
+                <div class="coluna3-caixa"></div>
+            </div>
+
+        </div>
+
+
+
+
+
+</body>
+
+</html>
