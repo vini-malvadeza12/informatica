@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços - Lanchonete</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            flex-direction: column;
+            justify-content: center;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #fffb00;
+        }
+        tr:nth-child(even) {
+            background-color: #ffffff;
+            
+        }
+        tr:hover {
+            background-color: #ffa7a7;
+        }
+        div{justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    </style>
+</head>
+<body>
+<div>
+
+    <h2 style="text-align: center;">Tabela de Preços - Lanche do Deco</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Tamanho</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cachorro quente</td>
+                <td>Médio</td>
+                <td>R$ 14,00</td>
+            </tr>
+            <tr>
+                <td>hamburguer</td>
+                <td>Grande</td>
+                <td>R$ 18,00</td>
+            </tr>
+            <tr>
+                <td>coca-cola</td>
+                <td>Pequena</td>
+                <td>R$ 5,00</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    
+</body>
+</html>
